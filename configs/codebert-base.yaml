@@ -1,0 +1,26 @@
+# dataset
+dataset_path: "../data/"
+num_folds: 4
+fold_index: [0,1,2,3]
+seed: 42
+md_max_len: 64
+total_max_len: 512
+
+# model
+model_name: "microsoft/codebert-base"
+name: codebert_base
+
+# optimizer
+optimizer_name: Adam
+lr: 1.3e-5
+eps: 1e-8
+weight_decay: 0.01
+epochs: 5
+correct_bias: False
+
+# train
+batch_size: 32
+max_grad_norm: None
+accumulation_steps: 4
+fp16: True
+n_workers: 8
