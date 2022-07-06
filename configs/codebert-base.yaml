@@ -19,7 +19,7 @@ epochs: 5
 correct_bias: False
 
 # train
-batch_size: 32
+batch_size: 4
 max_grad_norm: None
 accumulation_steps: 4
 fp16: True

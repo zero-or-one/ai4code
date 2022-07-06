@@ -14,9 +14,15 @@ project
 │   val.csv
 ```
 
-### Result
+DONE:
+* Write the baseline code
+
 
 ###  TODO
-1. Add fold training
-2. Find different model configurations
+* Add fold training
+* Find different model configurations
 
+### Results
+| Model                         | CV      | LR      |
+| ----------------------------- |:-------:|:-------:|
+| [1]: codebert_base            | -       | -       |
