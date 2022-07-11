@@ -1,14 +1,14 @@
 # dataset
 dataset_path: "../data/"
-num_folds: 10
-fold_index: [0,1,2, 3, 4]
+num_folds: 4
+fold_index: [0,1,2,3]
 seed: 42
 md_max_len: 64
 total_max_len: 512
 
 # model
-model_name: "microsoft/codebert-base"
-name: codebert_base
+model_name: "distilbert-base-uncased"
+name: distilbert_base
 
 # optimizer
 optimizer_name: Adam
@@ -19,7 +19,7 @@ epochs: 5
 correct_bias: False
 
 # train
-batch_size: 8
+batch_size: 4
 max_grad_norm: None
 accumulation_steps: 4
 fp16: True
